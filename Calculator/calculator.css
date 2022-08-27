@@ -8,7 +8,25 @@
     color: #fff;
     font-family: Arial;
     padding: 18px;
-    box-shadow: 6px 6px px #4f4f4f;
+    box-shadow: 6px 6px 6px #4f4f4f;
+}
+
+.buttons{
+    display: grid;
+    grid-template-areas:
+    "ac plus-minus percent slash"
+    "seven eght nine star"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dot equal";
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.btn.zero{
+    grid-area: zero;
+    width: 100%;
+    border-radius: 34px;
 }
 
 .btn{
